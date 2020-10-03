@@ -103,11 +103,15 @@
                 android:text="@string/tvT" />
 
             <EditText
-                android:id="@+id/pt1"
+                android:id="@+id/etAnswer1"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:allowUndo="false"
                 android:ems="10"
+                android:digits="TF"
+                android:maxLength="1"
+                android:hint="@string/TorF"
                 android:inputType="textPersonName" />
 
         </LinearLayout>
@@ -138,11 +142,14 @@
                 android:text="@string/tvF" />
 
             <EditText
-                android:id="@+id/pt2"
+                android:id="@+id/etAnswer2"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:ems="10"
+                android:digits="TF"
+                android:maxLength="1"
+                android:hint="@string/TorF"
                 android:inputType="textPersonName" />
 
         </LinearLayout>
@@ -173,11 +180,14 @@
                 android:text="@string/tvT" />
 
             <EditText
-                android:id="@+id/pt3"
+                android:id="@+id/etAnswer3"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:ems="10"
+                android:digits="TF"
+                android:maxLength="1"
+                android:hint="@string/TorF"
                 android:inputType="textPersonName" />
 
         </LinearLayout>
@@ -208,11 +218,14 @@
                 android:text="@string/tvF" />
 
             <EditText
-                android:id="@+id/pt4"
+                android:id="@+id/etAnswer4"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:ems="10"
+                android:digits="TF"
+                android:maxLength="1"
+                android:hint="@string/TorF"
                 android:inputType="textPersonName" />
 
         </LinearLayout>
